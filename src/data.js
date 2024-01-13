@@ -7,7 +7,7 @@ export const levels = [
       "yellow": "#FFFF00"
       
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Easy",
@@ -17,7 +17,7 @@ export const levels = [
       "purple": "#800080"
       
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Easy",
@@ -26,7 +26,7 @@ export const levels = [
       "goldenrod": "#DAA520",
       "salmon": "#FA8072"
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Medium",
@@ -38,7 +38,7 @@ export const levels = [
       "lime": "#00FF00"
       
     },
-    choosed: false,
+    
   },
   
   {
@@ -51,7 +51,7 @@ export const levels = [
       "silver": "#C0C0C0"
       
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Hard",
@@ -63,7 +63,7 @@ export const levels = [
       "violet": "#EE82EE"
      
     },
-    choosed: false,
+    
   },
 
   {
@@ -76,7 +76,7 @@ export const levels = [
       "indianred": "#CD5C5C"
      
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Super",
@@ -88,7 +88,7 @@ export const levels = [
       "darkolivegreen": "#556B2F"
       
     },
-    choosed: false,
+    
   },
   // Another level...
   {
@@ -101,7 +101,7 @@ export const levels = [
       "rosybrown": "#BC8F8F"
      
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Super",
@@ -112,7 +112,7 @@ export const levels = [
       "darkgoldenrod": "#B8860B",
       "sienna": "#A0522D"
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Insane",
@@ -124,7 +124,7 @@ export const levels = [
       "royalblue": "#4169E1",
       "chocolate": "#D2691E"
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Insane",
@@ -136,7 +136,7 @@ export const levels = [
       "saddlebrown": "#8B4513",
       "dodgerblue": "#1E90FF"
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Legendary",
@@ -149,7 +149,7 @@ export const levels = [
       "slateblue": "#6A5ACD",
       "peru": "#CD853F",
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Legendary",
@@ -162,7 +162,7 @@ export const levels = [
       "orangered": "#FF4500",
       "saddlebrown": "#8B4513"
     },
-    choosed: false,
+    
   },
   {
     difficulty: "Legendary",
@@ -175,6 +175,6 @@ export const levels = [
       "palevioletred": "#DB7093",
       "skyblue": "#87CEEB"
     },
-    choosed: false,
+    
   }
 ];
