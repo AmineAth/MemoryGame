@@ -1,9 +1,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(251, 152, 191);
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/804/1001/146/white-pink-memory-begin-wallpaper-preview.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to right, #fea0a0, #c2e7c2, #8383ff);
+    animation: gradientAnimation 10s linear infinite;
 }
 .app{
     display: flex;
@@ -68,4 +66,15 @@ header img{
     50% { color: rgb(171, 62, 169); }
     75% { color: rgb(225, 76, 76); }
     100% { color: rgb(255, 173, 19); }
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
