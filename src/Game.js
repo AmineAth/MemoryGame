@@ -105,7 +105,7 @@ export default function Game(props) {
           </div>
         ))}
       </article>
-      {/* <button onClick={nextLevel}>next level</button> */}
+      
     </div>
   );
 }
