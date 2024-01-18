@@ -54,8 +54,6 @@ export default function Game(props) {
           //win case, so we go to next level
           nextLevel();
           setChoosedColors([]);
-        } else {
-          alert("had cas 3mrha ktji");
         }
       }
     } else {
@@ -101,7 +99,7 @@ export default function Game(props) {
             key={colorName}
             style={{ backgroundColor: colorHash, padding: "10px" }}
           >
-            <p className="Color--Name">{colorName}</p>
+            {/* <p className="Color--Name">{colorName}</p> */}
           </div>
         ))}
       </article>
